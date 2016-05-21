@@ -12,6 +12,7 @@ public class PeerConnectionParameters {
     public final int audioStartBitrate;
     public final String audioCodec;
     public final boolean cpuOveruseDetection;
+
     public PeerConnectionParameters(
             boolean videoCallEnabled, boolean loopback,
             int videoWidth, int videoHeight, int videoFps, int videoStartBitrate,

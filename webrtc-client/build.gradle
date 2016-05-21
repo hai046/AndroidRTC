@@ -1,6 +1,9 @@
 apply plugin: 'com.android.library'
 
 
+
+
+
 android {
     compileSdkVersion 22
     buildToolsVersion "22.0.0"
@@ -22,4 +25,6 @@ android {
 dependencies {
     compile 'com.github.nkzawa:socket.io-client:0.4.2'
     compile 'io.pristine:libjingle:8871@aar'
+
+    compile fileTree(dir: 'libs', include: ['*.jar'])
 }
